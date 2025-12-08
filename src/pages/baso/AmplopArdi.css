@@ -1,0 +1,87 @@
+.titleAmplop {
+  margin: 0;
+  padding: 0;
+  margin-top: 9rem;
+  font-family: "Great Vibes", Sans-serif;
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+  color: #832b2b;
+  padding-top: 3rem;
+}
+
+.doaAmplop {
+  background-color: #8f181b;
+  padding: 3rem 0;
+  margin: 2rem 0;
+}
+
+.doaAmplop p {
+  width: 90%;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.rekIndricard {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cardardiBank.active {
+  opacity: 1;
+  height: auto;
+  visibility: visible;
+}
+
+.cardardiBank {
+  width: 60%;
+  position: relative;
+  background-color: #161616;
+  border-radius: 15px;
+  margin-top: 3rem;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s linear;
+}
+
+.copyTextArdi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.2rem;
+  padding: 0.05rem 0.1rem;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  color: #fff;
+  z-index: 1000;
+  position: absolute;
+  bottom: 8%;
+  right: 5%;
+}
+
+.copyTextArdi h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.notificationArdi {
+  position: fixed;
+  bottom: 15%;
+  left: 20%;
+  background-color: #8f181b;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 102;
+  font-weight: 900;
+}
+
+.notificationArdi.show {
+  display: block;
+  opacity: 1;
+}

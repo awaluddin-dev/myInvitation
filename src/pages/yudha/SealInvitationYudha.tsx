@@ -2,7 +2,7 @@ import styled from "styled-components";
 import yudvid from "./../../assets/Yudvid.mp4";
 import yudvid1 from "./../../assets/Yudvid1.mp4";
 import Lottie from "lottie-react";
-import love from "./../../assets/loveLottie.json";
+import love from "../../assets/loveLottie.json";
 import nana from "./../../assets/yud8.jpeg";
 import yudha from "./../../assets/yud2.jpeg";
 import styles from "./../../css/module/Yudha.module.css";
@@ -35,7 +35,7 @@ const Videobackground1 = styled.video`
   z-index: 1; /* Ensure video is behind content */
 `;
 
-const SealInvitationYudha = ({ name, isVisible, setIsVisible, playMusic }) => {
+const SealInvitationYudha = ({ name, isVisible, setIsVisible, playMusic }: any) => {
   return (
     <div
       style={{

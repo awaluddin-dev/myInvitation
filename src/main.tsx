@@ -11,6 +11,7 @@ import ArdiWedding from "./pages/ardi/ArdiWedding.jsx";
 import InvitationYudha from "./pages/yudha/InvitationYudha.jsx";
 import "./index.css";
 import InvitationNana from "./pages/nana/InvitationNana.jsx";
+import BasoWedding from "./pages/baso/BasoWedding.js";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,15 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/undangannikahbasodanhusni/:name",
+    element: (
+      <>
+        <BasoWedding />
+        <ToastContainer position="top-center" autoClose={3000} style={{}} />
+      </>
+    ),
+  },
+  {
     path: "/ourweddingyudha/:name",
     element: (
       <>
@@ -68,7 +78,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>

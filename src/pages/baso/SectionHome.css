@@ -1,0 +1,131 @@
+.sectionHomeArdi {
+  font-family: "Work Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  width: 100%;
+  height: auto;
+  background-image: url("./../../../src/assets/homeArdi.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.leavehomeLeftImg {
+  width: 50%;
+}
+
+.secAbsolute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secAbsolute p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  color: #474747;
+}
+
+.secAbsolute p.marginTop2 {
+  margin-top: 20px;
+}
+
+.secAbsolute .ardiTitle2 {
+  margin-top: 9rem;
+  font-weight: 600;
+  color: #832b2b;
+}
+
+.secAbsolute .ardiTitle3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #474747;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.secAbsolute .ardiTitle1 {
+  font-family: "Corinthia", cursive;
+  color: #ce6161;
+  font-size: 2.7rem; 
+  text-align: center;
+}
+
+.circleFotoArdi {
+  position: relative;
+  width: 36rem;
+  height: 28rem;
+}
+
+.circleFoto1 {
+  position: absolute;
+  width: 18rem;
+  height: 18rem;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  top: 0%;
+  left: 0%;
+  transform: translate(40%, 20%);
+  border: 3px solid #ae7a7a;
+  z-index: 1;
+  -webkit-box-shadow: 0px 0px 15px 5px #ae7a7a63;
+  box-shadow: 0px 0px 15px 5px #ae7a7a63;
+}
+
+.ardiHomefoto {
+  width: 100%;
+  transform: scale(-1.4, 1.4) translate(-5px, -15px);
+}
+
+.flowerCircle {
+  position: absolute;
+  z-index: 2;
+  width: 22%;
+  bottom: 0%;
+  right: 0%;
+  transform: translate(-70%, -30%);
+}
+
+.countTimerArdi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.countCardArdi {
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d90429;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.countCardArdi h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.countCardArdi h2:first-child {
+  font-size: 1.3rem;
+}
+
+.btnSaveDate {
+  border-radius: 50px;
+  background-color: #d90429;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 9rem;
+}

@@ -1,0 +1,106 @@
+.sectionPerkenalanArdi {
+  font-family: "Work Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  width: 100%;
+  height: auto;
+  background-image: url("./../../../src/assets/bgRedArdi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secAbsolute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bismillahImg {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.fadeIn {
+  transition: all 1s linear;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+}
+
+.fadeIn.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.flowerFotoFade2 {
+  transition: all 1s linear;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(10%, 10%) scale(0);
+}
+
+.flowerFotoFade2.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-60%, -25%) scale(1);
+}
+
+.secAbsolute .ardiTitle4 {
+  font-size: 2.2rem;
+  font-family: "Great Vibes", Sans-serif;
+  color: #ce6161;
+  margin: 0;
+}
+
+.secAbsolute p {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.ardiHomefoto1 {
+  width: 100%;
+  transform: scale(3) translate(-32px, 5px);
+}
+.ardiHomefoto2 {
+  width: 100%;
+  transform: scale(3) translate(32px, 28px);
+}
+
+.circleFotoArdi2 {
+  position: relative;
+  width: 32rem;
+  height: 24rem;
+}
+
+.circleFoto2 {
+  position: absolute;
+  width: 16rem;
+  height: 16rem;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  top: 0%;
+  left: 0%;
+  transform: translate(40%, 20%);
+  border: 3px solid #ae7a7a;
+  z-index: 1;
+  -webkit-box-shadow: 0px 0px 15px 5px #ae7a7a63;
+  box-shadow: 0px 0px 15px 5px #ae7a7a63;
+}
+
+.flowerCircle2 {
+  position: absolute;
+  z-index: 2;
+  width: 22%;
+  bottom: 0%;
+  right: 0%;
+  transform: translate(-60%, -25%);
+}
+
+.secPositionPerkenalan {
+  margin-bottom: 9rem;
+}
