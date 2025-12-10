@@ -1,0 +1,100 @@
+.sectionGalery {
+  font-family: "Work Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  width: 100%;
+  background-color: #8f181b;
+  padding-bottom: 5rem;
+}
+
+.titleGalery {
+  font-family: "Great Vibes", Sans-serif;
+  font-size: 4rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  padding-top: 3rem;
+}
+
+.sliderAllArdi {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: auto 1rem;
+}
+
+.sliderArdi {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.wrapperSliderArdi {
+  width: 70%;
+  overflow: hidden;
+  height: 20rem;
+}
+
+.sliderardiFoto {
+  width: 100%;
+  transform: translateY(-100px);
+}
+
+.sliderArrowArdi {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sliderArrowArdiLeft {
+  border-bottom: solid 4px #fff;
+  border-right: solid 4px #fff;
+  transform: rotate(135deg);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 4px;
+}
+
+.sliderArrowArdiRight {
+  border-bottom: solid 4px #fff;
+  border-right: solid 4px #fff;
+  transform: rotate(-45deg);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 4px;
+}
+
+.thumbnailListWrapper {
+  width: 200%;
+  margin: auto 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.thumbArdifotos {
+  width: 16rem;
+  height: 9rem;
+  overflow: hidden;
+  border: 3px solid transparent;
+}
+.thumbArdifotos.active {
+  border: 3px solid #fff;
+}
+
+.thumbArdifoto {
+  width: 110%;
+  transform: translate(-5px, -50px);
+}
